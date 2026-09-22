@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Madison Carrier | A Pet with Paws®</title>
+    <meta name="description" content="The Madison Carrier - Sustainable, airline-approved luxury pet carrier made from recycled plastics. Available in Pecan, Cobalt Blue, and Rose Pink.">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="bg-[#f0f7ff] text-slate-900 antialiased selection:bg-blue-600 selection:text-white font-['Plus_Jakarta_Sans',sans-serif]">
+
+    <div
+        class="bg-gradient-to-r from-blue-700 via-blue-800 to-indigo-900 text-white text-xs sm:text-sm py-2 px-4 shadow-sm">
+        <div
+            class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+            <div class="hidden sm:flex items-center gap-2">
+                <span
+                    class="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-bold bg-white/20 text-white">
+                    Trade Show Feature
+                </span>
+                <span class="font-medium tracking-wide">China Inventory Available for Immediate Delivery</span>
+            </div>
+            <div class="flex items-center justify-center sm:justify-end gap-3 sm:gap-4 text-[11px] sm:text-xs font-semibold w-full sm:w-auto">
+                <a href="mailto:info@apetwithpaws.com"
+                    class="hover:underline flex items-center gap-1.5 transition-colors">
+                    <i class="fa-solid fa-envelope hidden sm:inline"></i>
+                    <span>info@apetwithpaws.com</span>
+                </a>
+                <span class="opacity-40">|</span>
+                <a href="https://wa.me/19176646079" target="_blank" rel="noopener noreferrer"
+                    class="hover:underline flex items-center gap-1.5 transition-colors">
+                    <i class="fa-brands fa-whatsapp text-emerald-300 hidden sm:inline"></i>
+                    <span>+1-917-664-6079</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <header
+        class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-blue-100 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="assets/images/brand_logo_trans.png" alt="A Pet with Paws® - Pet Travel Perfected"
+                        class="h-12 sm:h-14 w-auto object-contain">
+                </a>
+
+                <nav class="hidden md:flex items-center gap-6 lg:gap-8">
+                    <a href="index.html"
+                        class="text-sm font-semibold text-slate-700 hover:text-blue-600 transition-colors">
+                        Home
+                    </a>
+                    <a href="madison-carrier.html" class="text-sm font-bold text-blue-600 transition-colors">
+                        The Madison Carrier
+                    </a>
+                    <a href="training-pouches.html"
+                        class="text-sm font-semibold text-slate-700 hover:text-blue-600 transition-colors">
+                        Training Bags & Pouches
+                    </a>
+                    <a href="wholesale.html"
+                        class="text-sm font-semibold text-slate-700 hover:text-blue-600 transition-colors">
+                        Why Carry & Wholesale
+                    </a>
+                </nav>
+
+                <div class="hidden lg:flex items-center gap-3">
+                    <a href="wholesale.html"
+                        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs uppercase tracking-wider font-bold text-white bg-blue-600 hover:bg-blue-700 shadow-md shadow-blue-500/20 transition-all duration-200">
+                        <span>Wholesale Inquiries</span>
+                        <i class="fa-solid fa-arrow-right text-[11px]"></i>
+                    </a>
+                </div>
+
+                <div class="flex md:hidden items-center">
+                    <button id="menuToggle" type="button" aria-label="Toggle navigation"
+                        class="p-2.5 rounded-xl text-slate-700 hover:text-blue-600 hover:bg-blue-50 transition-colors focus:ring-2 focus:ring-blue-500">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobileMenu"
+            class="md:hidden border-t border-blue-100 bg-white/95 backdrop-blur-lg px-4 space-y-2 shadow-xl">
+            <a href="index.html"
+                class="block px-4 py-2.5 rounded-xl text-base font-semibold text-slate-700 hover:text-blue-600">
+                Home
+            </a>
+            <a href="madison-carrier.html" class="block px-4 py-2.5 rounded-xl text-base font-bold text-blue-600">
+                The Madison Carrier
+            </a>
+            <a href="training-pouches.html"
+                class="block px-4 py-2.5 rounded-xl text-base font-semibold text-slate-700 hover:text-blue-600">
+                Training Bags & Waste Pouches
+            </a>
+            <a href="wholesale.html"
+                class="block px-4 py-2.5 rounded-xl text-base font-semibold text-slate-700 hover:text-blue-600">
+                Why Carry & Wholesale
+            </a>
+            <div class="pt-3">
+                <a href="https://wa.me/19176646079" target="_blank" rel="noopener noreferrer"
+                    class="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 transition-colors">
+                    <i class="fa-brands fa-whatsapp text-emerald-300 text-base"></i>
+                    <span>+1-917-664-6079</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-16">
+        <div class="text-center max-w-3xl mx-auto mb-12" data-aos="fade-up">
+            <span class="text-xs font-black tracking-widest uppercase text-blue-600 bg-blue-50 px-4 py-1.5 rounded-full border border-blue-200">
+                Signature Collection
+            </span>
+            <h1 class="text-3xl sm:text-5xl font-black text-slate-900 mt-4 mb-4">
+                The Madison Carrier
+            </h1>
+            <p class="text-base sm:text-lg text-slate-600 max-w-2xl mx-auto">
+                The pinnacle of pet travel luxury, combining designer handbag elegance with airline-approved comfort and eco-friendly recycled materials.
+            </p>
+        </div>
+
+        <div class="mb-16 max-w-7xl mx-auto" data-aos="fade-up">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <div class="lg:col-span-5 space-y-8">
+                    <div class="  flex flex-col items-center justify-center text-center">
+                        <img src="assets/images/madison_group_three.png" alt="The Madison Carrier Trio - Cobalt Blue, Pecan, Rose Pink"
+                            class="w-full h-auto object-contain max-h-64 mx-auto mb-4">
+                        <div class="flex items-center justify-center gap-3 text-xs font-bold text-slate-700 uppercase tracking-wider">
+                            <span class="inline-flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-[#8d4925]"></span> Pecan</span>
+                            <span class="text-slate-300">|</span>
+                            <span class="inline-flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-[#1b52d8]"></span> Cobalt Blue</span>
+                            <span class="text-slate-300">|</span>
+                            <span class="inline-flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-full bg-[#d92d7b]"></span> Rose Pink</span>
+                        </div>
+                    </div>
+
+                    <div class=" flex flex-col items-center justify-center text-center">
+                        <div class="rounded-2xl overflow-hidden border border-blue-100 shadow-sm w-full max-h-80">
+                            <img src="assets/images/madison_airport_travel.png"
+                                alt="Pet Parent traveling with Madison Carrier at airport"
+                                class="w-full h-full object-cover">
+                        </div>
+                        <span class="text-xs font-semibold text-slate-600 mt-3">
+                            <i class="fa-solid fa-plane-departure text-blue-600 mr-1.5"></i>
+                            Airline-approved with built-in luggage sleeve
+                        </span>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 px-6 sm:px-10  space-y-6">
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                        <div class="p-3.5 rounded-2xl bg-emerald-50/70 border border-emerald-100">
+                            <div class="w-7 h-7 rounded-lg bg-emerald-100 text-emerald-700 flex items-center justify-center font-bold mb-2">
+                                <i class="fa-solid fa-shirt text-xs"></i>
+                            </div>
+                            <h4 class="text-xs font-bold text-slate-900">Sustainable Fabric</h4>
+                            <p class="text-[11px] text-slate-600 mt-1 leading-snug">100% recycled plastic bottles converted to luxury textiles.</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-2xl bg-pink-50/70 border border-pink-100">
+                            <div class="w-7 h-7 rounded-lg bg-pink-100 text-pink-700 flex items-center justify-center font-bold mb-2">
+                                <i class="fa-solid fa-paw text-xs"></i>
+                            </div>
+                            <h4 class="text-xs font-bold text-slate-900">Cruelty-Free</h4>
+                            <p class="text-[11px] text-slate-600 mt-1 leading-snug">Designer metal hardware with vegan leather accents.</p>
+                        </div>
+
+                        <div class="p-3.5 rounded-2xl bg-blue-50/70 border border-blue-100">
+                            <div class="w-7 h-7 rounded-lg bg-blue-100 text-blue-700 flex items-center justify-center font-bold mb-2">
+                                <i class="fa-solid fa-gem text-xs"></i>
+                            </div>
+                            <h4 class="text-xs font-bold text-slate-900">Fashion Forward</h4>
+                            <p class="text-[11px] text-slate-600 mt-1 leading-snug">Designer handbag look for stylish pet travel on the go.</p>
+                        </div>
+                    </div>
+
+                    <div class="border-t border-slate-100 pt-5">
+                        <h4 class="text-xs font-black uppercase tracking-wider text-slate-400 mb-3">Core Specifications & Features</h4>
+                        <ul class="space-y-3.5 text-xs sm:text-sm text-slate-700">
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-sm"></i>
+                                <span><strong>Real leather look</strong> featuring a hi-resolution photo imprint directly onto sustainable fabric.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-sm"></i>
+                                <span><strong>Mesh top, back, and side</strong> for easy entry and optimal cross-ventilation.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-sm"></i>
+                                <span><strong>Double zipper</strong> top and side opening with secure Velcro flap closure.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-sm"></i>
+                                <span><strong>Cozy Sherpa fleece cushion</strong> that can be easily removed and laundered.</span>
+                            </li>
+                            <li class="flex items-start gap-2.5">
+                                <i class="fa-solid fa-circle-check text-blue-600 mt-0.5 shrink-0 text-sm"></i>
+                                <span><strong>Interior safety tether</strong> helps secure pets safely inside.</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-blue-50/60 p-4 sm:p-5 rounded-2xl border border-blue-100">
+                        <h5 class="text-xs font-bold uppercase tracking-wider text-blue-800 mb-3">Available Dimensions:</h5>
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-700">
+                            <div class="bg-white p-3 rounded-xl border border-blue-100 shadow-sm">
+                                <span class="font-bold text-slate-900 block text-sm">Small Carrier:</span>
+                                <span class="font-semibold text-slate-700">16" L x 10" H x 9 ½" D</span>
+                                <span class="text-slate-400 block text-[11px] mt-0.5">(40.5cm L x 25.5cm H x 24cm D)</span>
+                            </div>
+                            <div class="bg-white p-3 rounded-xl border border-blue-100 shadow-sm">
+                                <span class="font-bold text-slate-900 block text-sm">Large Carrier:</span>
+                                <span class="font-semibold text-slate-700">18" L x 11 ½" H x 10 ½" D</span>
+                                <span class="text-slate-400 block text-[11px] mt-0.5">(46cm L x 29.5cm H x 26.5cm D)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="space-y-12 mb-16">
+            <div class="text-center max-w-2xl mx-auto">
+                <span class="text-xs font-black tracking-widest uppercase text-blue-600 bg-blue-50 px-4 py-1.5 rounded-full border border-blue-200">
+                    Product Visuals & Angles
+                </span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-3">
+                    Available Colorways & Multi-Angle Views
+                </h2>
+            </div>
+
+            <div class="bg-white rounded-3xl p-6 sm:p-8 border border-amber-200/80 shadow-md" data-aos="fade-up">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-100 pb-4 mb-6">
+                    <div class="flex items-center gap-3">
+                        <span class="w-4 h-4 rounded-full bg-[#8d4925]"></span>
+                        <h3 class="text-xl font-bold text-slate-900">The Madison Carrier — Pecan</h3>
+                    </div>
+                    <span class="text-xs font-bold text-amber-800 bg-amber-50 px-3 py-1 rounded-full border border-amber-200">Classic Leather Vibe</span>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="bg-[#faf7f5] p-3 rounded-2xl border border-amber-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_pecan_front.png" alt="Madison Carrier Pecan Front View" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Front Designer View</span>
+                    </div>
+                    <div class="bg-[#faf7f5] p-3 rounded-2xl border border-amber-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_pecan_mesh.png" alt="Madison Carrier Pecan Mesh Ventilation" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Mesh Ventilation Window</span>
+                    </div>
+                    <div class="bg-[#faf7f5] p-3 rounded-2xl border border-amber-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_pecan_detail.png" alt="Madison Carrier Pecan Hardware & Texture" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Hardware & Texture Detail</span>
+                    </div>
+                    <div class="bg-[#faf7f5] p-3 rounded-2xl border border-amber-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_pecan_open.png" alt="Madison Carrier Pecan Open Top View" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Top Opening & Interior</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl p-6 sm:p-8 border border-pink-200/80 shadow-md" data-aos="fade-up">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-100 pb-4 mb-6">
+                    <div class="flex items-center gap-3">
+                        <span class="w-4 h-4 rounded-full bg-[#d92d7b]"></span>
+                        <h3 class="text-xl font-bold text-slate-900">The Madison Carrier — Rose Pink</h3>
+                    </div>
+                    <span class="text-xs font-bold text-pink-800 bg-pink-50 px-3 py-1 rounded-full border border-pink-200">Vibrant & Chic</span>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="bg-[#fff7fa] p-3 rounded-2xl border border-pink-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_pink_front.png" alt="Madison Carrier Rose Pink Front View" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Front Designer View</span>
+                    </div>
+                    <div class="bg-[#fff7fa] p-3 rounded-2xl border border-pink-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_pink_mesh.png" alt="Madison Carrier Rose Pink Mesh Ventilation" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Mesh Ventilation Window</span>
+                    </div>
+                    <div class="bg-[#fff7fa] p-3 rounded-2xl border border-pink-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_pink_detail.png" alt="Madison Carrier Rose Pink Hardware & Texture" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Hardware & Texture Detail</span>
+                    </div>
+                    <div class="bg-[#fff7fa] p-3 rounded-2xl border border-pink-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_pink_open.png" alt="Madison Carrier Rose Pink Open Top View" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Top Opening & Interior</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-3xl p-6 sm:p-8 border border-blue-200/80 shadow-md" data-aos="fade-up">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-100 pb-4 mb-6">
+                    <div class="flex items-center gap-3">
+                        <span class="w-4 h-4 rounded-full bg-[#1b52d8]"></span>
+                        <h3 class="text-xl font-bold text-slate-900">The Madison Carrier — Cobalt Blue</h3>
+                    </div>
+                    <span class="text-xs font-bold text-blue-800 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">Signature Royal Hue</span>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="bg-[#f4f8ff] p-3 rounded-2xl border border-blue-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_blue_front.png" alt="Madison Carrier Cobalt Blue Front View" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Front Designer View</span>
+                    </div>
+                    <div class="bg-[#f4f8ff] p-3 rounded-2xl border border-blue-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_blue_mesh.png" alt="Madison Carrier Cobalt Blue Mesh Ventilation" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Mesh Ventilation Window</span>
+                    </div>
+                    <div class="bg-[#f4f8ff] p-3 rounded-2xl border border-blue-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_blue_detail.png" alt="Madison Carrier Cobalt Blue Hardware & Texture" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Hardware & Texture Detail</span>
+                    </div>
+                    <div class="bg-[#f4f8ff] p-3 rounded-2xl border border-blue-100 flex flex-col items-center justify-between text-center">
+                        <img src="assets/images/madison_blue_open.png" alt="Madison Carrier Cobalt Blue Open Top View" class="w-full h-44 object-contain">
+                        <span class="text-xs font-bold text-slate-700 mt-2">Top Opening & Interior</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-300 pt-16 pb-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row justify-between items-start gap-12 pb-12 border-b border-slate-800">
+                <div class="max-w-md space-y-4">
+                    <div class="bg-white p-2.5 rounded-xl inline-block">
+                        <img src="assets/images/brand_logo_trans.png" alt="A Pet with Paws®"
+                            class="h-10 w-auto object-contain">
+                    </div>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        A Pet with Paws® challenges the boundaries of traditional pet travel by combining
+                        fashion-forward design, thoughtful functionality, and sustainability.
+                    </p>
+                    <div class="inline-block px-3 py-1 rounded-lg bg-slate-800 text-xs font-bold text-blue-400">
+                        People. Pooches. The Planet.
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-12 sm:gap-16 lg:gap-24">
+                    <div>
+                        <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4">Quick Navigation</h4>
+                        <ul class="space-y-3 text-sm">
+                            <li><a href="index.html" class="hover:text-blue-400 transition-colors">Home Overview</a>
+                            </li>
+                            <li><a href="madison-carrier.html" class="text-blue-400 font-semibold transition-colors">The Madison
+                                    Carrier</a></li>
+                            <li><a href="training-pouches.html" class="hover:text-blue-400 transition-colors">Training Bags
+                                    & Pouches</a></li>
+                            <li><a href="wholesale.html" class="hover:text-blue-400 transition-colors">Why Carry &
+                                    Wholesale</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4">Trade Show Contact</h4>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-envelope text-white/70 w-4"></i>
+                                <a href="mailto:info@apetwithpaws.com"
+                                    class="hover:text-blue-400 transition-colors">info@apetwithpaws.com</a>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-brands fa-whatsapp text-white/70 w-4 text-lg"></i>
+                                <a href="https://wa.me/19176646079" target="_blank" rel="noopener noreferrer"
+                                    class="hover:text-blue-400 transition-colors">+1-917-664-6079</a>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-globe text-white/70 w-4"></i>
+                                <a href="http://www.apetwithpaws.com" target="_blank" rel="noopener noreferrer"
+                                    class="hover:text-blue-400 transition-colors">www.apetwithpaws.com</a>
+                            </li>
+                            <li class="text-xs text-slate-400 pt-1">
+                                Founder: Ann Greenberg
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-8 text-center text-xs text-slate-400">
+                <p>© 2026 A Pet with Paws®. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

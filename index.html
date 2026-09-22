@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Pet with Paws® | Pet Travel Perfected</title>
+    <meta name="description"
+        content="The Ultimate Stylish Solution for Small Pets on the Go. Fashion, Function, and Sustainability. Airline-approved pet carriers and eco-friendly accessories.">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body
+    class="bg-[#f0f7ff] text-slate-900 antialiased selection:bg-blue-600 selection:text-white font-['Plus_Jakarta_Sans',sans-serif]">
+
+    <div
+        class="bg-gradient-to-r from-blue-700 via-blue-800 to-indigo-900 text-white text-xs sm:text-sm py-2 px-4 shadow-sm">
+        <div
+            class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+            <div class="hidden sm:flex items-center gap-2">
+                <span
+                    class="inline-flex items-center px-2 py-0.5 rounded-full text-[11px] font-bold bg-white/20 text-white">
+                    Trade Show Feature
+                </span>
+                <span class="font-medium tracking-wide">China Inventory Available for Immediate Delivery</span>
+            </div>
+            <div class="flex items-center justify-center sm:justify-end gap-3 sm:gap-4 text-[11px] sm:text-xs font-semibold w-full sm:w-auto">
+                <a href="mailto:info@apetwithpaws.com"
+                    class="hover:underline flex items-center gap-1.5 transition-colors">
+                    <i class="fa-solid fa-envelope hidden sm:inline"></i>
+                    <span>info@apetwithpaws.com</span>
+                </a>
+                <span class="opacity-40">|</span>
+                <a href="https://wa.me/19176646079" target="_blank" rel="noopener noreferrer"
+                    class="hover:underline flex items-center gap-1.5 transition-colors">
+                    <i class="fa-brands fa-whatsapp text-emerald-300 hidden sm:inline"></i>
+                    <span>+1-917-664-6079</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <header
+        class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-blue-100 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center gap-3">
+                    <img src="assets/images/brand_logo_trans.png" alt="A Pet with Paws® - Pet Travel Perfected"
+                        class="h-12 sm:h-14 w-auto object-contain">
+                </a>
+
+                <nav class="hidden md:flex items-center gap-6 lg:gap-8">
+                    <a href="index.html" class="text-sm font-bold text-blue-600 transition-colors">
+                        Home
+                    </a>
+                    <a href="madison-carrier.html"
+                        class="text-sm font-semibold text-slate-700 hover:text-blue-600 transition-colors">
+                        The Madison Carrier
+                    </a>
+                    <a href="training-pouches.html"
+                        class="text-sm font-semibold text-slate-700 hover:text-blue-600 transition-colors">
+                        Training Bags & Pouches
+                    </a>
+                    <a href="wholesale.html"
+                        class="text-sm font-semibold text-slate-700 hover:text-blue-600 transition-colors">
+                        Why Carry & Wholesale
+                    </a>
+                </nav>
+
+                <div class="hidden lg:flex items-center gap-3">
+                    <a href="wholesale.html"
+                        class="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs uppercase tracking-wider font-bold text-white bg-blue-600 hover:bg-blue-700 shadow-md shadow-blue-500/20 transition-all duration-200">
+                        <span>Wholesale Inquiries</span>
+                        <i class="fa-solid fa-arrow-right text-[11px]"></i>
+                    </a>
+                </div>
+
+                <div class="flex md:hidden items-center">
+                    <button id="menuToggle" type="button" aria-label="Toggle navigation"
+                        class="p-2.5 rounded-xl text-slate-700 hover:text-blue-600 hover:bg-blue-50 transition-colors focus:ring-2 focus:ring-blue-500">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobileMenu"
+            class="md:hidden border-t border-blue-100 bg-white/95 backdrop-blur-lg px-4 space-y-2 shadow-xl">
+            <a href="index.html" class="block px-4 py-2.5 rounded-xl text-base font-bold text-blue-600">
+                Home
+            </a>
+            <a href="madison-carrier.html"
+                class="block px-4 py-2.5 rounded-xl text-base font-semibold text-slate-700 hover:text-blue-600">
+                The Madison Carrier
+            </a>
+            <a href="training-pouches.html"
+                class="block px-4 py-2.5 rounded-xl text-base font-semibold text-slate-700 hover:text-blue-600">
+                Training Bags & Waste Pouches
+            </a>
+            <a href="wholesale.html"
+                class="block px-4 py-2.5 rounded-xl text-base font-semibold text-slate-700 hover:text-blue-600">
+                Why Carry & Wholesale
+            </a>
+            <div class="pt-3">
+                <a href="https://wa.me/19176646079" target="_blank" rel="noopener noreferrer"
+                    class="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-xl text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 transition-colors">
+                    <i class="fa-brands fa-whatsapp text-emerald-300 text-base"></i>
+                    <span>+1-917-664-6079</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="relative overflow-hidden">
+        <section class="relative pt-8 pb-16 sm:pt-14 sm:pb-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-10 sm:mb-14" data-aos="fade-up">
+                <div class="text-xs sm:text-sm font-bold tracking-[0.1em] text-blue-700 uppercase mb-5">
+                    Pet Travel Perfected
+                </div>
+
+                <h1
+                    class="text-3xl sm:text-4xl md:text-5xl lg:text-7xl font-black text-blue-700 tracking-tight leading-[1.3] sm:!leading-[1.2] mb-6">
+                    The Ultimate Stylish Solution for <span class="text-slate-900 block sm:inline">Small Pets on the
+                        Go</span>
+                </h1>
+
+                <div
+                    class="flex flex-wrap items-center justify-center gap-3 sm:gap-5 text-sm sm:text-lg md:text-xl font-black tracking-wider sm:tracking-widest text-slate-900 uppercase mt-6">
+                    <span
+                        class="inline-block bg-white px-5 py-2.5 rounded-2xl shadow-sm border border-blue-100/80 -rotate-3 hover:rotate-0 transition-transform duration-300">
+                        Fashion
+                    </span>
+                    <span class="text-blue-400 font-bold text-lg sm:text-2xl">•</span>
+                    <span
+                        class="inline-block bg-white px-5 py-2.5 rounded-2xl shadow-sm border border-blue-100/80 rotate-2 hover:rotate-0 transition-transform duration-300">
+                        Function
+                    </span>
+                    <span class="text-blue-400 font-bold text-lg sm:text-2xl">•</span>
+                    <span
+                        class="inline-block bg-white px-5 py-2.5 rounded-2xl shadow-sm border border-blue-100/80 -rotate-2 hover:rotate-0 transition-transform duration-300">
+                        Sustainability
+                    </span>
+                </div>
+            </div>
+
+            <div class="relative max-w-6xl mx-auto" data-aos="zoom-in">
+                <div class="rounded-2xl sm:rounded-3xl p-2 sm:p-3 bg-white shadow-xl border border-blue-200">
+                    <div class="relative rounded-xl sm:rounded-2xl overflow-hidden">
+                        <img src="assets/images/hero_ladies_nyc.jpg"
+                            alt="A Pet with Paws - Stylish Pet Travel Carriers in NYC"
+                            class="w-full h-auto object-cover">
+
+                        <div
+                            class="hidden sm:flex absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3.5 py-2 rounded-xl shadow-md border border-slate-200 items-center gap-2 text-xs font-bold text-slate-800">
+                            <i class="fa-solid fa-recycle text-emerald-600 text-sm"></i>
+                            <span>Sustainable Recycled Fabrics</span>
+                        </div>
+
+                        <div
+                            class="hidden sm:flex absolute bottom-4 right-4 bg-white/95 backdrop-blur-md px-3.5 py-2 rounded-xl shadow-md border border-slate-200 items-center gap-2 text-xs font-bold text-slate-800">
+                            <i class="fa-solid fa-plane-departure text-blue-600 text-sm"></i>
+                            <span>Airline-Approved Travel Carrier</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="madison-carrier.html"
+                        class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-full text-sm font-bold text-white bg-blue-600 hover:bg-blue-700 shadow-lg shadow-blue-600/25 transition-all">
+                        <span>Explore The Madison Carrier</span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="wholesale.html"
+                        class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-8 py-3.5 rounded-full text-sm font-bold text-slate-800 bg-white hover:bg-blue-50 border border-blue-300 shadow-sm transition-all">
+                        <i class="fa-solid fa-file-invoice text-blue-600"></i>
+                        <span>Wholesale & Distribution</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-16 sm:py-20 bg-white border-y border-blue-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-2xl mx-auto mb-12">
+                    <span
+                        class="text-xs font-black tracking-widest uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
+                        Brand Highlights
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-3">
+                        Core Values of A Pet with Paws®
+                    </h2>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="p-6 sm:p-8 rounded-2xl bg-[#f8fbff] border border-blue-100 shadow-sm" data-aos="fade-up"
+                        data-aos-delay="100">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-pink-100 text-pink-600 flex items-center justify-center text-xl mb-5">
+                            <i class="fa-solid fa-gem"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Fashion</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Real leather appearance featuring a high-resolution photo imprint directly onto sustainable
+                            fabric, accented with cruelty-free premium metal trim.
+                        </p>
+                    </div>
+
+                    <div class="p-6 sm:p-8 rounded-2xl bg-[#f8fbff] border border-blue-100 shadow-sm" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-blue-100 text-blue-600 flex items-center justify-center text-xl mb-5">
+                            <i class="fa-solid fa-sliders"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Function</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Thoughtfully engineered with mesh ventilation on top, back, and side, double zipper
+                            openings, cozy washable Sherpa cushion, and interior safety tether.
+                        </p>
+                    </div>
+
+                    <div class="p-6 sm:p-8 rounded-2xl bg-[#f8fbff] border border-blue-100 shadow-sm" data-aos="fade-up"
+                        data-aos-delay="300">
+                        <div
+                            class="w-12 h-12 rounded-xl bg-emerald-100 text-emerald-600 flex items-center justify-center text-xl mb-5">
+                            <i class="fa-solid fa-leaf"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-900 mb-2">Sustainability</h3>
+                        <p class="text-sm text-slate-600 leading-relaxed">
+                            Crafted from innovative eco-friendly textiles made from recycled plastic bottles,
+                            transforming post-consumer waste into durable, lightweight pet gear.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-16 sm:pt-20 pb-8 sm:pb-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12" data-aos="fade-up">
+                <span
+                    class="text-xs font-black tracking-widest uppercase text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-200">
+                    Visual Showcase
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-slate-900 mt-3">
+                    Pets Traveling in Style & Comfort
+                </h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8">
+                <div class="bg-white rounded-2xl overflow-hidden border border-blue-200/80 shadow-md flex flex-col group hover:shadow-lg transition-all"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div class="aspect-[4/3] bg-slate-100 overflow-hidden">
+                        <img src="assets/images/feature_terriers_pink.jpg"
+                            alt="Two Yorkies inside Rose Pink Madison Carrier"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-bold uppercase tracking-widest text-pink-600">The Madison
+                                Carrier</span>
+                            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Rose Pink Edition</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Spacious dual pet comfort with cozy Sherpa fleece cushion and interior safety tether.
+                            </p>
+                        </div>
+                        <a href="madison-carrier.html"
+                            class="mt-4 inline-flex items-center text-xs font-bold text-blue-600 hover:text-blue-800 gap-1.5 transition-colors">
+                            <span>View Madison Specs</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden border border-blue-200/80 shadow-md flex flex-col group hover:shadow-lg transition-all"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div class="aspect-[4/3] bg-slate-100 overflow-hidden">
+                        <img src="assets/images/feature_park_walk.jpg"
+                            alt="Active pet training with hands-free crossbody pouch"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-bold uppercase tracking-widest text-blue-600">Hands-Free
+                                Series</span>
+                            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Training Bags & Pouches</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Crossbody convenience for strolls and active training with integrated waste dispenser.
+                            </p>
+                        </div>
+                        <a href="training-pouches.html"
+                            class="mt-4 inline-flex items-center text-xs font-bold text-blue-600 hover:text-blue-800 gap-1.5 transition-colors">
+                            <span>Meet Bentley, Miles & Oliver</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-white rounded-2xl overflow-hidden border border-blue-200/80 shadow-md flex flex-col group hover:shadow-lg transition-all"
+                    data-aos="fade-up" data-aos-delay="300">
+                    <div class="aspect-[4/3] bg-slate-100 overflow-hidden">
+                        <img src="assets/images/feature_cat_pecan.jpg" alt="Cat in luxury Pecan Madison carrier"
+                            class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <span class="text-[11px] font-bold uppercase tracking-widest text-amber-700">Canine & Feline
+                                Travel</span>
+                            <h3 class="text-lg font-bold text-slate-900 mt-1 mb-2">Pecan Brown Carrier</h3>
+                            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed">
+                                Designer handbag aesthetics with coordinating accessory pouch and luggage sleeve.
+                            </p>
+                        </div>
+                        <a href="madison-carrier.html"
+                            class="mt-4 inline-flex items-center text-xs font-bold text-blue-600 hover:text-blue-800 gap-1.5 transition-colors">
+                            <span>Explore Colorways</span>
+                            <i class="fa-solid fa-arrow-right text-[10px]"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pt-12 sm:pt-16 pb-20 sm:pb-24 bg-[#f0f7ff]" data-aos="fade-up">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+                <span
+                    class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-50 text-blue-600 text-xs font-black tracking-widest uppercase mb-6 border border-blue-200 shadow-sm">
+                    Trade Show & Wholesale Spec
+                </span>
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-black text-slate-900 tracking-tight leading-[1.2] mb-6">
+                    Wholesale & Distribution Opportunities
+                </h2>
+                <p class="text-base sm:text-lg md:text-xl text-slate-600 font-semibold max-w-2xl mx-auto mb-10 sm:mb-12">
+                    China Inventory Available for Immediate Delivery
+                </p>
+
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-4xl mx-auto">
+                    <a href="https://wa.me/19176646079" target="_blank" rel="noopener noreferrer"
+                        class="w-full sm:w-64 inline-flex items-center justify-center gap-2.5 px-5 py-2.5 rounded-xl text-sm font-bold bg-emerald-600 hover:bg-emerald-700 text-white shadow-md hover:shadow-lg transition-all">
+                        <i class="fa-brands fa-whatsapp text-lg"></i>
+                        <span>+1-917-664-6079</span>
+                    </a>
+                    <a href="mailto:info@apetwithpaws.com"
+                        class="w-full sm:w-64 inline-flex items-center justify-center gap-2.5 px-5 py-3.5 rounded-xl text-sm font-bold bg-blue-600 hover:bg-blue-700 text-white shadow-md hover:shadow-lg transition-all">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>info@apetwithpaws.com</span>
+                    </a>
+                    <a href="wholesale.html"
+                        class="w-full sm:w-64 inline-flex items-center justify-center gap-2.5 px-5 py-3.5 rounded-xl text-sm font-bold bg-white text-slate-800 hover:bg-blue-50 border border-blue-200 shadow-sm hover:shadow-md transition-all">
+                        <i class="fa-solid fa-circle-info text-blue-600"></i>
+                        <span>Why Carry Details</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-slate-950 text-slate-300 pt-16 pb-12 border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col lg:flex-row justify-between items-start gap-12 pb-12 border-b border-slate-800">
+                <div class="max-w-md space-y-4">
+                    <div class="bg-white p-2.5 rounded-xl inline-block">
+                        <img src="assets/images/brand_logo_trans.png" alt="A Pet with Paws®"
+                            class="h-10 w-auto object-contain">
+                    </div>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        A Pet with Paws® challenges the boundaries of traditional pet travel by combining
+                        fashion-forward design, thoughtful functionality, and sustainability.
+                    </p>
+                    <div class="inline-block px-3 py-1 rounded-lg bg-slate-800 text-xs font-bold text-blue-400">
+                        People. Pooches. The Planet.
+                    </div>
+                </div>
+
+                <div class="flex flex-col sm:flex-row gap-12 sm:gap-16 lg:gap-24">
+                    <div>
+                        <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4">Quick Navigation</h4>
+                        <ul class="space-y-3 text-sm">
+                            <li><a href="index.html" class="text-blue-400 font-semibold transition-colors">Home Overview</a>
+                            </li>
+                            <li><a href="madison-carrier.html" class="hover:text-blue-400 transition-colors">The Madison
+                                    Carrier</a></li>
+                            <li><a href="training-pouches.html" class="hover:text-blue-400 transition-colors">Training Bags
+                                    & Pouches</a></li>
+                            <li><a href="wholesale.html" class="hover:text-blue-400 transition-colors">Why Carry &
+                                    Wholesale</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="text-sm font-bold text-white uppercase tracking-wider mb-4">Trade Show Contact</h4>
+                        <ul class="space-y-3 text-sm">
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-envelope text-white/70 w-4"></i>
+                                <a href="mailto:info@apetwithpaws.com"
+                                    class="hover:text-blue-400 transition-colors">info@apetwithpaws.com</a>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-brands fa-whatsapp text-white/70 w-4 text-lg"></i>
+                                <a href="https://wa.me/19176646079" target="_blank" rel="noopener noreferrer"
+                                    class="hover:text-blue-400 transition-colors">+1-917-664-6079</a>
+                            </li>
+                            <li class="flex items-center gap-2.5">
+                                <i class="fa-solid fa-globe text-white/70 w-4"></i>
+                                <a href="http://www.apetwithpaws.com" target="_blank" rel="noopener noreferrer"
+                                    class="hover:text-blue-400 transition-colors">www.apetwithpaws.com</a>
+                            </li>
+                            <li class="text-xs text-slate-400 pt-1">
+                                Founder: Ann Greenberg
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-8 text-center text-xs text-slate-400">
+                <p>© 2026 A Pet with Paws®. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/lenis@1.3.26/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
